@@ -1,13 +1,19 @@
 <resources>
-    <string name="app_name">Ideas-Moviles</string>
+    <string name="app_name">Magia Cafetera</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">Magia Cafetera</string>
     <string name="second_fragment_label">Magia Cafetera</string>
+    <string name="third_fragment_label">Magia Cafetera</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
+    <!-- Strings used for First Fragment -->
     <string name="first_fragment">Eje Cafetero</string>
-    <string name="parrafo_first">El eje cafetero colombiano es sinónimo de pueblos coloridos que salpican el verde de las montañas y de las plantaciones de café. De despertar con colibríes o con aullidos de monos. De aromas a tierra mojada con cítricos y, cómo no, a café, todo mezclado. Y alguna caca de vaca. De sopas calentitas en el medio de la montaña. Y aguapanela con queso. Y chocolate caliente. De transformar cada viaje en bus en el asiento de una silla de cine ante semejante espectáculo de paisajes. Es también sinónimo de palmas de cera, frágiles gigantes que desafían las leyes de la física y no dejan indiferentes a nadie, o no serían uno de los símbolos del país. Pero lo mejor del eje cafetero es, indudablemente, su gente. Por todos estos motivos se convirtió en nuestra región favorita del país.</string>
-    <string name="second_fragment">¿Qué lugares visitar en el eje cafetero?</string>
+    <string name="parrafo_first">El eje cafetero colombiano es sinónimo de pueblos coloridos que salpican el verde de las montañas y de las plantaciones de café. De despertar con colibríes o con aullidos de monos. De aromas a tierra mojada con cítricos y, cómo no, a café, todo mezclado. De sopas calentitas en el medio de la montaña. Y aguapanela con queso. Y chocolate caliente. De transformar cada viaje en bus en el asiento de una silla de cine ante semejante espectáculo de paisajes. Es también sinónimo de palmas de cera, frágiles gigantes que desafían las leyes de la física y no dejan indiferentes a nadie, o no serían uno de los símbolos del país. Pero lo mejor del eje cafetero es, indudablemente, su gente. Por todos estos motivos se convirtió en nuestra región favorita del país, que puedes visitar proximamente.</string>
+    <!-- Strings used for Second Fragment -->
+    <string name="second_fragment">Qué es y cómo llegar al eje cafetero</string>
+    <string name="parrafo_second">Puedes llegar en bus, vehículo particular o en avión a las principales ciudades del Eje Cafetero, las cuales son Pereira, Armenia y Manizales.</string>
+    <string name="parrafo_second2">El Eje Cafetero es uno de los destinos que perfectamente puedes visitar en cualquier época del año, sin embargo, debes tener en cuenta que los meses de octubre y noviembre suelen ser los más lluviosos.</string>
+    <!-- Strings used for Third Fragment -->
+    <string name="third_fragment">¿Qué lugares visitar en el eje cafetero?</string>
 </resources>
