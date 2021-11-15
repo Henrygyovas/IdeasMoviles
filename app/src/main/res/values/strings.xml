@@ -5,6 +5,7 @@
     <string name="first_fragment_label">Magia Cafetera</string>
     <string name="second_fragment_label">Magia Cafetera</string>
     <string name="third_fragment_label">Magia Cafetera</string>
+    <string name="Fourth_fragment_label">Magia Cafetera</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <!-- Strings used for First Fragment -->
@@ -16,4 +17,14 @@
     <string name="parrafo_second2">El Eje Cafetero es uno de los destinos que perfectamente puedes visitar en cualquier época del año, sin embargo, debes tener en cuenta que los meses de octubre y noviembre suelen ser los más lluviosos.</string>
     <!-- Strings used for Third Fragment -->
     <string name="third_fragment">¿Qué lugares visitar en el eje cafetero?</string>
+    <!-- Strings used for Fourth Fragment -->
+    <string name="fourth_fragment">Salento, Quindio</string>
+    <string name="parrafo_fourth">Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.
+En Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.
+</string>
+    <string name="parrafo_fourth2">En Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.
+Qué hacer | Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.
+Cómo llegar | A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.
+</string>
+    string
 </resources>

@@ -5,9 +5,10 @@
       <map>
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/activity_main.xml" value="0.12244897959183673" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/content_main.xml" value="0.33" />
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_fourth.xml" value="0.15353260869565216" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_second.xml" value="0.33" />
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_third.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_third.xml" value="0.25" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/menu/menu_main.xml" value="0.209375" />
       </map>
     </option>
@@ -17,12 +18,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.33" />
-      </ProjectState>
-    </option>
   </component>
 </project>

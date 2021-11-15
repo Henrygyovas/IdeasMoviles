@@ -38,6 +38,21 @@
         <action
             android:id="@+id/action_ThirdFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_ThirdFragment_to_FourthFragment"
+            app:destination="@id/FourthFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/FourthFragment"
+        android:name="com.example.ideas_moviles.FourthFragment"
+        android:label="@string/Fourth_fragment_label"
+        tools:layout="@layout/fragment_fourth">
+
+        <action
+            android:id="@+id/action_FourthFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment" />
 
     </fragment>
 

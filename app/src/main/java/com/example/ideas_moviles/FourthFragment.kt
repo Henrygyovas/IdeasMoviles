@@ -6,12 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.example.ideas_moviles.databinding.FragmentThirdBinding
+import com.example.ideas_moviles.databinding.FragmentFourthBinding
 
+class FourthFragment : Fragment() {
 
-class ThirdFragment : Fragment() {
-
-    private var _binding: FragmentThirdBinding? = null
+    private var _binding: FragmentFourthBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,7 +21,7 @@ class ThirdFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentThirdBinding.inflate(inflater, container, false)
+        _binding = FragmentFourthBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -30,11 +29,8 @@ class ThirdFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonThird.setOnClickListener {
-            findNavController().navigate(R.id.action_ThirdFragment_to_SecondFragment)
-        }
-        binding.buttonThird2.setOnClickListener {
-            findNavController().navigate(R.id.action_ThirdFragment_to_FourthFragment)
+        binding.buttonFourth.setOnClickListener {
+            findNavController().navigate(R.id.action_FourthFragment_to_ThirdFragment)
         }
 
     }

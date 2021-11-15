@@ -54,24 +54,37 @@
             app:cardElevation="8dp"
             >
 
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/salento"
+                    android:layout_marginLeft="8dp"
+                    />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal" >
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/foto_principal"/>
+                android:layout_gravity="center"
+                >
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Salento,Quindio"
+                    android:text="Salento, Quindio"
                     android:textStyle="bold"
                     android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="8dp"
+
+                    />
+
+                <Button
+                    android:id="@+id/button_third2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:layout_marginLeft="8dp"
                     />
 
             </LinearLayout>
@@ -91,23 +104,39 @@
             app:cardElevation="8dp"
             >
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal" >
+
 
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/foto_principal"/>
+                    android:src="@drawable/valle_cocora"
+                    android:layout_marginLeft="8dp"
+                    />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Valle Del Cocora"
+                    android:text="Valle del Cocora"
                     android:textStyle="bold"
-                    android:textAlignment="center"/>
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="8dp"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:layout_marginLeft="8dp"
+                    />
 
             </LinearLayout>
 
@@ -126,25 +155,40 @@
             app:cardElevation="8dp"
             >
 
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/santa_rosa"
+                android:layout_marginLeft="8dp"
+                />
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal" >
+                android:layout_gravity="center"
+                 >
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/foto_principal"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Santa Rosa De Cabal"
+                    android:text="Santa rosa de cabal"
                     android:textStyle="bold"
-                    android:textAlignment="center"/>
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="8dp"
+                    />
+
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:layout_marginLeft="8dp"
+                    />
 
             </LinearLayout>
+
+
 
         </androidx.cardview.widget.CardView>
 
@@ -160,24 +204,39 @@
             app:cardCornerRadius="8dp"
             app:cardElevation="8dp"
             >
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/parque_nevados"
+                    android:layout_marginLeft="8dp"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:gravity="center"
-                android:layout_gravity="center_vertical|center_horizontal" >
+                android:layout_gravity="center"
+                >
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/foto_principal"/>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Parque los Nevados"
+                    android:text="Parque los nevados"
                     android:textStyle="bold"
-                    android:textAlignment="textStart"/>
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="8dp"
+
+                    />
+
+                <Button
+
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:layout_marginLeft="8dp"
+
+                    />
 
             </LinearLayout>
 
