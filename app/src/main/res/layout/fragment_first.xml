@@ -9,6 +9,15 @@
     android:gravity="center_vertical"
     >
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
     <TextView
         android:id="@+id/textview_first"
         android:layout_width="wrap_content"
@@ -21,6 +30,8 @@
         android:textStyle="bold"/>
 
 
+
+
     <ImageView
         android:id="@+id/fotoPrincipal"
         android:layout_width="wrap_content"
@@ -28,6 +39,9 @@
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:src="@drawable/foto_principal" />
+
+
+
 
     <TextView
         android:id="@+id/textview_parrafo"
@@ -48,6 +62,11 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_gravity="end"
         android:layout_marginRight="20dp"
-
         />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>

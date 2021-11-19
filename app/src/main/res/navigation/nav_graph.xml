@@ -5,6 +5,7 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/FirstFragment">
 
+    <!-- primera interfaz -->
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.ideas_moviles.FirstFragment"
@@ -15,6 +16,7 @@
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
     </fragment>
+    <!-- Segunda interfaz -->
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.ideas_moviles.SecondFragment"
@@ -29,6 +31,7 @@
             app:destination="@id/ThirdFragment" />
     </fragment>
 
+    <!-- Tercera interfaz -->
     <fragment
         android:id="@+id/ThirdFragment"
         android:name="com.example.ideas_moviles.ThirdFragment"
@@ -42,8 +45,13 @@
             android:id="@+id/action_ThirdFragment_to_FourthFragment"
             app:destination="@id/FourthFragment" />
 
+        <action
+            android:id="@+id/action_ThirdFragment_to_FifthFragment"
+            app:destination="@id/FifthFragment" />
+
     </fragment>
 
+    <!-- Cuarta interfaz -->
     <fragment
         android:id="@+id/FourthFragment"
         android:name="com.example.ideas_moviles.FourthFragment"
@@ -52,6 +60,20 @@
 
         <action
             android:id="@+id/action_FourthFragment_to_ThirdFragment"
+            app:destination="@id/ThirdFragment"/>
+
+    </fragment>
+
+    <!-- Quinta interfaz -->
+
+    <fragment
+        android:id="@+id/FifthFragment"
+        android:name="com.example.ideas_moviles.FifthFragment"
+        android:label="@string/Fifth_fragment_label"
+        tools:layout="@layout/fragment_fifth">
+
+        <action
+            android:id="@+id/action_FifthFragment_to_ThirdFragment"
             app:destination="@id/ThirdFragment" />
 
     </fragment>

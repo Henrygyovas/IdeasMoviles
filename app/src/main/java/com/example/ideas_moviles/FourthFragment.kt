@@ -11,9 +11,7 @@ import com.example.ideas_moviles.databinding.FragmentFourthBinding
 class FourthFragment : Fragment() {
 
     private var _binding: FragmentFourthBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
+    
     private val binding get() = _binding!!
 
     override fun onCreateView(
