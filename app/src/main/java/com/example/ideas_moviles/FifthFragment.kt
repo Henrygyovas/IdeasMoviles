@@ -27,9 +27,7 @@ class FifthFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonFifth.setOnClickListener {
-            findNavController().navigate(R.id.action_FifthFragment_to_ThirdFragment)
-        }
+
 
     }
 

@@ -13,6 +13,24 @@
     <string name="ver">Ver</string>
     <string name="que_hacer">Que Hacer</string>
     <string name="llegar">Como Llegar</string>
+    <string name="nombre">Nombre </string>
+    <!-- Navbar -->
+    <string name="navegation_drawer_open">Open</string>
+    <string name="navegation_drawer_close">Close</string>
+
+    <!-- lugares -->
+    <!-- Nombres -->
+    <string name="salento">Salento, Quindio</string>
+    <string name="Valle_cocora">Valle del Cocora</string>
+    <string name="Santa_rosa">Santa Rosa de Cabal</string>
+    <string name="parque_nevados">Parque Nacional de los Nevados</string>
+
+    <!-- Descripcion -->
+    <string name="des_salento">un destino que es conocido mundialmente como la cuna de la palma de cera.</string>
+    <string name="des_valle_cocora">Es uno de los últimos bosques de palmas de cera del mundo, las más altas del mundo.</string>
+    <string name="des_santa_rosa">Sobresale por sus aguas termales con propiedades curativas y relajantes.</string>
+    <string name="des_parque_nacional">Abarca el complejo volcánico conformado por los nevados del Ruíz, Santa Isabel y Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.</string>
+
 
     <!-- Strings used for First Fragment -->
     <string name="first_fragment">Eje Cafetero</string>
@@ -22,7 +40,7 @@
     <string name="parrafo_second">Puedes llegar en bus, vehículo particular o en avión a las principales ciudades del Eje Cafetero, las cuales son Pereira, Armenia y Manizales.</string>
     <string name="parrafo_second2">El Eje Cafetero es uno de los destinos que perfectamente puedes visitar en cualquier época del año, sin embargo, debes tener en cuenta que los meses de octubre y noviembre suelen ser los más lluviosos.</string>
     <!-- Strings used for Third Fragment -->
-    <string name="third_fragment">¿Qué lugares visitar en el eje cafetero?</string>
+    <string name="lugares">¿Qué lugares visitar en el eje cafetero?</string>
     <!-- Strings used for Fourth Fragment -->
     <string name="fourth_fragment">Salento, Quindio</string>
     <string name="parrafo_fourth">Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.
@@ -34,4 +52,7 @@ En Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y m
     <string name="parrafo_fourth4">A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.</string>
     <!-- Strings used for Fifth Fragment -->
     <string name="fifth_fragment">Valle del cocora</string>
+    <string name="title_registro_lugar">Registrar un lugar</string>
+    <string name="registrar">Registrar</string>
+    <string name="descripcion">Descripción</string>
 </resources>
