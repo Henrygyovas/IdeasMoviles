@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Salento, Quindio",
+        "descripcion": "un destino que es conocido mundialmente como la cuna de la palma de cera.",
+        "detalles": "hola",
+        "image": "https://res.cloudinary.com/kvot/image/upload/v1637871053/salento_gfo8fh.jpg"
+    },
+    {
+        "title": "Valle del Cocora",
+        "descripcion": "Es uno de los últimos bosques de palmas de cera del mundo, las más altas del mundo.",
+        "detalles": "hola",
+        "image": "https://res.cloudinary.com/kvot/image/upload/v1637871121/valle_cocora_zqa7f9.jpg"
+    },
+    {
+        "title": "Santa Rosa de Cabal",
+        "descripcion": "Sobresale por sus aguas termales con propiedades curativas y relajantes.",
+        "detalles": "hola",
+        "image": "https://res.cloudinary.com/kvot/image/upload/v1637871151/santa_rosa_jgyqfm.jpg"
+    },
+    {
+        "title": "Parque Nacional de los Nevados",
+        "descripcion": "Abarca el complejo volcánico conformado por los nevados del Ruíz, Santa Isabel y Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.",
+        "detalles": "hola",
+        "image": "https://res.cloudinary.com/kvot/image/upload/v1637871182/parque_nevados_wbq9w1.jpg"
+    }
+]
+
+

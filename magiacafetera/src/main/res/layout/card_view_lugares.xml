@@ -25,7 +25,7 @@
             android:padding="16dp">
 
             <ImageView
-                android:id="@+id/image_view"
+                android:id="@+id/rv_image_view"
                 android:layout_width="155dp"
                 android:layout_height="112dp"
                 android:layout_alignParentStart="true"
@@ -40,7 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
-                android:layout_toEndOf="@id/image_view"
+                android:layout_toEndOf="@id/rv_image_view"
                 android:text="@string/salento"
                 android:textColor="@color/green_700"
                 android:textSize="20sp"
@@ -51,8 +51,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/title_text_view"
-                android:layout_toEndOf="@id/image_view"
-                android:layout_toRightOf="@id/image_view"
+                android:layout_toEndOf="@id/rv_image_view"
+                android:layout_toRightOf="@id/rv_image_view"
                 android:text="@string/des_salento" />
 
             <me.zhanghai.android.materialratingbar.MaterialRatingBar
@@ -62,8 +62,8 @@
                 style="@style/Widget.MaterialRatingBar.RatingBar.Small"
                 android:layout_below="@id/descripcion_text_view"
                 android:layout_marginTop="8dp"
-                android:layout_toEndOf="@id/image_view"
-                android:layout_toRightOf="@id/image_view"
+                android:layout_toEndOf="@id/rv_image_view"
+                android:layout_toRightOf="@id/rv_image_view"
                 android:numStars="5"
 
                 />

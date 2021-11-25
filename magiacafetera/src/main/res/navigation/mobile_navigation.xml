@@ -25,9 +25,9 @@
     </fragment>
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.magiacafetera.ui.Lugares.ListaLugaresFragment"
+        android:name="com.example.magiacafetera.ui.lugares.ListaLugaresFragment"
         android:label="@string/menu_lugares"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_lista_lugares" />
 
     <fragment
         android:id="@+id/nav_slideshow"

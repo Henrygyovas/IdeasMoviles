@@ -1,5 +1,7 @@
-package com.example.magiacafetera.ui.Lugares
+package com.example.magiacafetera.ui.lugares
 
+import android.app.Application
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,23 +10,20 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.magiacafetera.R
-import com.example.magiacafetera.databinding.FragmentGalleryBinding
+import com.example.magiacafetera.databinding.FragmentListaLugaresBinding
+import com.google.gson.Gson
 
 class ListaLugaresFragment : Fragment() {
 
-    val lugares: List<DataLugares> = listOf(
-        DataLugares(R.string.salento, R.string.des_salento,R.string.parrafo_fourth ,R.drawable.salento),
-        DataLugares(R.string.Valle_cocora, R.string.des_valle_cocora,R.string.parrafo_fourth ,R.drawable.valle_cocora),
-        DataLugares(R.string.Santa_rosa, R.string.des_santa_rosa,R.string.parrafo_fourth ,R.drawable.santa_rosa),
-        DataLugares(R.string.parque_nevados, R.string.des_parque_nacional,R.string.parrafo_fourth ,R.drawable.parque_nevados)
-    )
 
+
+    private lateinit var dataLugares: ArrayList<DataLugaresItem>
     private var layoutManager: RecyclerView.LayoutManager? = null
     private var adapter: RecyclerView.Adapter<AdapterLugares.ViewHolder>? = null
 
 
 
-    private var _binding: FragmentGalleryBinding? = null
+    private var _binding: FragmentListaLugaresBinding? = null
     private val binding get() = _binding!!
 
 
@@ -34,18 +33,26 @@ class ListaLugaresFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentGalleryBinding.inflate(inflater, container, false)
+        _binding = FragmentListaLugaresBinding.inflate(inflater, container, false)
         val root: View = binding.root
         return root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-            binding.recyclerView.apply {
-
+        dataLugares = getLugaresFromJson()
+        binding.recyclerView.apply {
             layoutManager = LinearLayoutManager(context)
-            adapter = AdapterLugares(lugares)
+            adapter = AdapterLugares(dataLugares)
         }
+    }
+
+    private fun getLugaresFromJson(): ArrayList<DataLugaresItem> {
+        val lugaresString : String = requireActivity().application.assets.open("lugares.json").bufferedReader().use { it.readText() }
+        val gson = Gson()
+        val data = gson.fromJson(lugaresString, DataLugares::class.java)
+        return data
     }
 
     override fun onDestroyView() {
