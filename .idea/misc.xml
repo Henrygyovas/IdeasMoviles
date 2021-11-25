@@ -3,21 +3,50 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/activity_lista_lugares.xml" value="0.33" />
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/drawable/calendar_icon.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/drawable/home_icon.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/drawable/logout_icon.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/drawable/lugares_icon.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/drawable/place_icon.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/font/changa_one.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/activity_lista.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/activity_lista_lugares.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/activity_prueba.xml" value="0.209375" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/activity_registro_lugares.xml" value="0.25" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/app_bar_main.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/app_bar_top.xml" value="0.209375" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/card_layout.xml" value="0.1" />
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/card_view_lugares.xml" value="0.33" />
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/content_main.xml" value="0.33" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/card_view_lugares.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_blank.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_detalle_lugar_a.xml" value="0.209375" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_fifth.xml" value="0.209375" />
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_first.xml" value="0.25" />
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_fourth.xml" value="0.33" />
-        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_second.xml" value="0.33" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_fourth.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_second.xml" value="0.25" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/fragment_third.xml" value="0.33" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/header.xml" value="0.209375" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/layout/nav_header_main.xml" value="0.209375" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/menu/activity_main_drawer.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/menu/main_menu.xml" value="0.209375" />
         <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/menu/menu_main.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/menu/navegation.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/app/src/main/res/menu/top_menu_bar.xml" value="0.209375" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/drawable-v24/help_icon.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/drawable/home_icon.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/drawable/side_nav_bar.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/font/changa_one.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/card_view_lugares.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/fragment_gallery.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/fragment_home_two.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/Desktop/IdeasMoviles/magiacafetera/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
       </map>
     </option>
   </component>

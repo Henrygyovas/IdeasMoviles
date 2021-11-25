@@ -5,14 +5,12 @@ import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class ListaLugaresActivity : AppCompatActivity() {
+class ListaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        this.supportActionBar?.hide()
-        setContentView(R.layout.activity_lista_lugares)
+        setContentView(R.layout.activity_lista)
 
-
-        val recyclerView = findViewById<RecyclerView>(R.id.lugares_recycler_view)
+        val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
         val adapter = LugaresAdapter()
 
         recyclerView.layoutManager = LinearLayoutManager(this)

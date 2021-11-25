@@ -55,4 +55,11 @@ En Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y m
     <string name="title_registro_lugar">Registrar un lugar</string>
     <string name="registrar">Registrar</string>
     <string name="descripcion">Descripción</string>
+    <string name="favorite">favorite</string>
+    <string name="content_description_favorite">content description favorite</string>
+    <string name="search">search</string>
+    <string name="content_description_search">content description search</string>
+    <string name="more">more</string>
+    <string name="content_description_more">content description more</string>
+
 </resources>

@@ -7,4 +7,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Ideas-Moviles"
-include ':app'
+include ':magiacafetera'
