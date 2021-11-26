@@ -6,20 +6,27 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.magiacafetera.R
 import com.example.magiacafetera.databinding.CardViewLugaresBinding
 import com.squareup.picasso.Picasso
 
-class AdapterLugares(val dataLugares: List<DataLugaresItem>): RecyclerView.Adapter<AdapterLugares.ViewHolder>() {
+class AdapterLugares(
+    private val dataLugares: List<DataLugaresItem>,
+    private val onItemClickListener : (DataLugaresItem) -> Unit,
+    ) : RecyclerView.Adapter<AdapterLugares.ViewHolder>() {
+
+
 
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
             val layoutInflater = LayoutInflater.from(parent.context)
 
-            return ViewHolder(layoutInflater.inflate(com.example.magiacafetera.R.layout.card_view_lugares, parent, false))
+            return ViewHolder(layoutInflater.inflate(R.layout.card_view_lugares, parent, false))
         }
 
         override fun onBindViewHolder(holder: ViewHolder, position: Int) {
             holder.render(dataLugares[position])
+            holder.itemView.setOnClickListener{ onItemClickListener(dataLugares[position]) }
 
         }
 

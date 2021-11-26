@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_home"
+   >
 
     <fragment
         android:id="@+id/nav_home"
@@ -24,15 +25,34 @@
             app:destination="@id/nav_home" />
     </fragment>
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_sitios"
         android:name="com.example.magiacafetera.ui.lugares.ListaLugaresFragment"
         android:label="@string/menu_lugares"
-        tools:layout="@layout/fragment_lista_lugares" />
+        tools:layout="@layout/fragment_lista_lugares" >
+        <action
+            android:id="@+id/action_nav_sitios_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.magiacafetera.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.example.magiacafetera.ui.lugares.detalles.DetalleFragment"
+        android:label="@string/descripcion"
+        tools:layout="@layout/fragment_detalle">
+        <argument
+            android:name="dataLugares"
+            app:argType="com.example.magiacafetera.ui.lugares.DataLugaresItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.magiacafetera.ui.configuracion.SettingsFragment"
+        android:label="Configuracion" />
+
 
 </navigation>

@@ -1,23 +1,16 @@
 <resources>
     <string name="app_name">MagiaCafetera</string>
     <!-- Por Defecto -->
+    <!-- Navbar -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_desc">Icon header</string>
     <string name="action_settings">Settings</string>
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Inicio</string>
     <string name="menu_lugares">Sitios</string>
-    <string name="menu_slideshow">Slideshow</string>
-
+    <string name="menu_slideshow">Datos de Interes</string>
 
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Magia Cafetera</string>
-    <string name="second_fragment_label">Magia Cafetera</string>
-    <string name="third_fragment_label">Magia Cafetera</string>
-    <string name="Fourth_fragment_label">Magia Cafetera</string>
-    <string name="Fifth_fragment_label">Magia Cafetera</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="info">Info</string>
@@ -25,9 +18,8 @@
     <string name="que_hacer">Que Hacer</string>
     <string name="llegar">Como Llegar</string>
     <string name="nombre">Nombre </string>
-    <!-- Navbar -->
-    <string name="navegation_drawer_open">Open</string>
-    <string name="navegation_drawer_close">Close</string>
+
+
 
     <!-- lugares -->
     <!-- Nombres -->
@@ -43,37 +35,35 @@
     <string name="des_parque_nacional">Abarca el complejo volcánico conformado por los nevados del Ruíz, Santa Isabel y Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.</string>
 
 
-    <!-- Strings used for First Fragment -->
-    <string name="first_fragment">Eje Cafetero</string>
-    <string name="parrafo_first">El eje cafetero colombiano es sinónimo de pueblos coloridos que salpican el verde de las montañas y de las plantaciones de café. De despertar con colibríes o con aullidos de monos. De aromas a tierra mojada con cítricos y, cómo no, a café, todo mezclado. De sopas calentitas en el medio de la montaña. Y aguapanela con queso. Y chocolate caliente. De transformar cada viaje en bus en el asiento de una silla de cine ante semejante espectáculo de paisajes. Es también sinónimo de palmas de cera, frágiles gigantes que desafían las leyes de la física y no dejan indiferentes a nadie, o no serían uno de los símbolos del país. Pero lo mejor del eje cafetero es, indudablemente, su gente. Por todos estos motivos se convirtió en nuestra región favorita del país, que puedes visitar proximamente.</string>
-    <!-- Strings used for Second Fragment -->
-    <string name="second_fragment">Qué es y cómo llegar al eje cafetero</string>
-    <string name="parrafo_second">Puedes llegar en bus, vehículo particular o en avión a las principales ciudades del Eje Cafetero, las cuales son Pereira, Armenia y Manizales.</string>
-    <string name="parrafo_second2">El Eje Cafetero es uno de los destinos que perfectamente puedes visitar en cualquier época del año, sin embargo, debes tener en cuenta que los meses de octubre y noviembre suelen ser los más lluviosos.</string>
-    <!-- Strings used for Third Fragment -->
+    <!-- Strings used for Home Fragment -->
+    <string name="title_home_fragment">Eje Cafetero</string>
+    <string name="paragraph_home">El eje cafetero colombiano es sinónimo de pueblos coloridos que salpican el verde de las montañas y de las plantaciones de café. De despertar con colibríes o con aullidos de monos. De aromas a tierra mojada con cítricos y, cómo no, a café, todo mezclado. De sopas calentitas en el medio de la montaña. Y aguapanela con queso. Y chocolate caliente. De transformar cada viaje en bus en el asiento de una silla de cine ante semejante espectáculo de paisajes. Es también sinónimo de palmas de cera, frágiles gigantes que desafían las leyes de la física y no dejan indiferentes a nadie, o no serían uno de los símbolos del país. Pero lo mejor del eje cafetero es, indudablemente, su gente. Por todos estos motivos se convirtió en nuestra región favorita del país, que puedes visitar proximamente.</string>
+
+    <!-- Strings used for Home Fragment Two -->
+    <string name="title_home_fragment_two">Qué es y cómo llegar al eje cafetero</string>
+    <string name="paragraph_home_two">Puedes llegar en bus, vehículo particular o en avión a las principales ciudades del Eje Cafetero, las cuales son Pereira, Armenia y Manizales.</string>
+    <string name="paragraph_home_two2">El Eje Cafetero es uno de los destinos que perfectamente puedes visitar en cualquier época del año, sin embargo, debes tener en cuenta que los meses de octubre y noviembre suelen ser los más lluviosos.</string>
+
+    <!-- Strings used for Lista Lugares Fragment -->
     <string name="lugares">¿Qué lugares visitar en el eje cafetero?</string>
-    <!-- Strings used for Fourth Fragment -->
-    <string name="fourth_fragment">Salento, Quindio</string>
+
+    <!-- Strings used for Detalles Fragment -->
+    <string name="descripcion">Descripción</string>
     <string name="parrafo_fourth">Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.
         En Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.
         </string>
-    <string name="parrafo_fourth2">En Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.
+    <string name="paragraph_detalles">En Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.
         </string>
-    <string name="parrafo_fourth3">Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.</string>
-    <string name="parrafo_fourth4">A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.</string>
-    <!-- Strings used for Fifth Fragment -->
-    <string name="fifth_fragment">Valle del cocora</string>
-    <string name="title_registro_lugar">Registrar un lugar</string>
-    <string name="registrar">Registrar</string>
-    <string name="descripcion">Descripción</string>
-    <string name="favorite">favorite</string>
-    <string name="content_description_favorite">content description favorite</string>
-    <string name="search">search</string>
-    <string name="content_description_search">content description search</string>
-    <string name="more">more</string>
-    <string name="content_description_more">content description more</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="paragraph_detalles2">Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.</string>
+    <string name="paragraph_detalles3">A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.</string>
 
+
+
+    <!-- Preference Titles -->
+    <string name="notifications_title">Mostrar Notificaciones</string>
+    <string name="sound_title">Sonido de Notificación</string>
+
+    <!-- Messages Preferences -->
+    <string name="title_notificacion">Notificaciones</string>
 
 </resources>
