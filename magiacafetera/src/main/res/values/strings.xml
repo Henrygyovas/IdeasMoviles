@@ -11,7 +11,7 @@
     <string name="menu_slideshow">Datos de Interes</string>
 
     <!-- Strings used for fragments for navigation -->
-    <string name="next">Next</string>
+    <string name="next">Mas Información</string>
     <string name="previous">Previous</string>
     <string name="info">Info</string>
     <string name="ver">Ver</string>

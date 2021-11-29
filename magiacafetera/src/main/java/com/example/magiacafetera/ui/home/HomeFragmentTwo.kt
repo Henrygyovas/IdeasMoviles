@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.magiacafetera.R
 
 import com.example.magiacafetera.databinding.FragmentHomeTwoBinding
+import com.squareup.picasso.Picasso
 
 
 class HomeFragmentTwo : Fragment() {
@@ -32,6 +33,8 @@ class HomeFragmentTwo : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        Picasso.get().load("https://res.cloudinary.com/kvot/image/upload/v1638229042/foto_second_chvpfv.jpg").into(binding.fotoSecundaria)
 
     }
 

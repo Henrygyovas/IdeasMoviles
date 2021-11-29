@@ -9,8 +9,10 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import androidx.viewbinding.ViewBindings
 import com.example.magiacafetera.R
 import com.example.magiacafetera.databinding.FragmentHomeBinding
+import com.squareup.picasso.Picasso
 
 class    HomeFragment : Fragment() {
 
@@ -38,6 +40,8 @@ class    HomeFragment : Fragment() {
        binding.buttonFirst.setOnClickListener {
             findNavController().navigate(R.id.action_nav_home_to_home_fragment_two)
         }
+
+        Picasso.get().load("https://res.cloudinary.com/kvot/image/upload/v1638229032/foto_principal_j2kkt1.jpg").into(binding.fotoPrincipal)
     }
 
     override fun onDestroyView() {

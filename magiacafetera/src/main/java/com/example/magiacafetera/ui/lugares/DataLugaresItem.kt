@@ -5,6 +5,8 @@ import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
 data class DataLugaresItem(
+    @SerializedName( "puntuacion")
+    val puntuacion: Float,
     @SerializedName("llegar")
     val llegar: String,
     @SerializedName("hacer")
