@@ -22,7 +22,7 @@
                 android:text="@string/title_home_fragment_two"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:textColor="@color/brown_700"
+                android:textColor="@color/brown_200"
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:layout_gravity="center"

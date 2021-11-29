@@ -20,7 +20,6 @@
     <string name="nombre">Nombre </string>
 
 
-
     <!-- lugares -->
     <!-- Nombres -->
     <string name="salento">Salento, Quindio</string>
@@ -56,7 +55,6 @@
         </string>
     <string name="paragraph_detalles2">Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.</string>
     <string name="paragraph_detalles3">A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.</string>
-
 
 
     <!-- Preference Titles -->
