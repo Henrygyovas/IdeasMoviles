@@ -1,10 +1,6 @@
 package com.example.magiacafetera.ui.lugares
 
-import android.app.Application
-import android.content.Context
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,9 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.magiacafetera.R
 import com.example.magiacafetera.databinding.FragmentListaLugaresBinding
-import com.example.magiacafetera.ui.lugares.detalles.DetalleFragment
+import com.example.magiacafetera.ui.model.DataLugares
+import com.example.magiacafetera.ui.model.DataLugaresItem
 import com.google.gson.Gson
 
 class ListaLugaresFragment : Fragment() {

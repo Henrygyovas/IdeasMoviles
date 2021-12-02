@@ -1,4 +1,4 @@
-package com.example.magiacafetera.ui.lugares
+package com.example.magiacafetera.ui.model
 
 
 import com.google.gson.annotations.SerializedName

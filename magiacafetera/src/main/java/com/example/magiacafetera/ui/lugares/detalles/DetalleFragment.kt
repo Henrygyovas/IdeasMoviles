@@ -6,10 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
-import com.example.magiacafetera.R
 import com.example.magiacafetera.databinding.FragmentDetalleBinding
-import com.example.magiacafetera.databinding.FragmentListaLugaresBinding
-import com.example.magiacafetera.ui.lugares.DataLugaresItem
 import com.squareup.picasso.Picasso
 
 
