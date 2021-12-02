@@ -22,6 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:scaleType="centerCrop"
+                app:srcCompat="@drawable/foto_principal"
                 android:adjustViewBounds="true"
                 tools:ignore="ContentDescription" />
 
@@ -33,7 +34,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:text="@string/title_home_fragment"
-                android:textColor="@color/brown_200"
+                android:textColor="@color/primaryLightColor"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

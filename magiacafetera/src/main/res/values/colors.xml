@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="brown_200">#883a33</color>
-    <color name="brown_900">#320000</color>
-    <color name="brown_700">#560d0d</color>
-    <color name="green_200">#a8d352</color>
-    <color name="green_900">#457300</color>
-    <color name="green_700">#76a21e</color>
+    <color name="primaryColor">#3d2622</color>
+    <color name="primaryLightColor">#694e4a</color>
+    <color name="primaryDarkColor">#1a0000</color>
+    <color name="secondaryColor">#76a21e</color>
+    <color name="secondaryLightColor">#a8d352</color>
+    <color name="secondaryDarkColor">#457300</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#121212</color>
 
+    <color name="md_theme_light_background">#FCFCFC</color>
+    <color name="md_theme_light_onBackground">#121212</color>
+    <color name="md_theme_light_surface">#FCFCFC</color>
+    <color name="md_theme_light_onSurface">#121212</color>
+    <color name="md_theme_dark_background">#121212</color>
+    <color name="md_theme_dark_onBackground">#EDE0DD</color>
+    <color name="md_theme_dark_surface">#121212</color>
 
     <style name="RatingBar"
         parent="android:style/Widget.Material.RatingBar.Small">
-        <item name="colorControlNormal">@color/green_700</item>
-        <item name="colorControlActivated">@color/black</item>
+        <item name="colorControlNormal">@color/secondaryDarkColor</item>
+        <item name="colorControlActivated">@color/white</item>
     </style>
 
+
+
 </resources>
+
+
