@@ -63,5 +63,19 @@
 
     <!-- Messages Preferences -->
     <string name="title_notificacion">Notificaciones</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_datos_interes">DatosInteresActivity</string>
+
+    <string-array name="planets">
+        <item>Neptuno</item>
+        <item>Saturno</item>
+        <item>Marte</item>
+    </string-array>
+    <string name="all">TODO</string>
+    <string name="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem possimus est totam amet a sequi. Totam sequi, quam provident iusto, iure ducimus et maxime voluptate maiores quo odio nisi officiis!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

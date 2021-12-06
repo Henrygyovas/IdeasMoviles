@@ -41,8 +41,10 @@ class    HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_nav_home_to_home_fragment_two)
         }
 
-        Picasso.get().load("https://res.cloudinary.com/kvot/image/upload/v1638229032/foto_principal_j2kkt1.jpg").into(binding.fotoPrincipal)
+        Picasso.get().load("https://res.cloudinary.com/kvot/image/upload/v1638738323/foto_principal_vkpaoz.webp").into(binding.fotoPrincipal)
+
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()

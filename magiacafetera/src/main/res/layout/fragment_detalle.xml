@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".ui.lugares.detalles.DetalleFragment">
@@ -88,6 +89,22 @@
                 android:text="@string/paragraph_detalles3"
                 android:layout_margin="16dp"
                 android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/text_mapButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="end"
+                android:text="Text button"
+                app:iconTint="@color/secondaryColor"
+                app:icon="@drawable/map_icon"
+                android:textColor="@color/secondaryColor"
+                app:elevation="10dp"
+                app:strokeColor="@color/secondaryColor"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
                 />
 
 

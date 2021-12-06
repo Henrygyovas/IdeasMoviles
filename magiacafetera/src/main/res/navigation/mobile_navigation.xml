@@ -49,11 +49,23 @@
         <argument
             android:name="dataLugares"
             app:argType="com.example.magiacafetera.ui.model.DataLugaresItem" />
+        <action
+            android:id="@+id/action_detalleFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
     <fragment
         android:id="@+id/nav_settings"
         android:name="com.example.magiacafetera.ui.configuracion.SettingsFragment"
         android:label="Configuraciones" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.magiacafetera.ui.maps.MapsFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_maps">
+        <argument
+            android:name="dataLugares2"
+            app:argType="com.example.magiacafetera.ui.model.DataLugaresItem" />
+    </fragment>
 
 
 </navigation>
