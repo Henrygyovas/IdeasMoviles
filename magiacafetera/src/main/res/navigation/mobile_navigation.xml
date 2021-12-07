@@ -48,7 +48,7 @@
         tools:layout="@layout/fragment_detalle">
         <argument
             android:name="dataLugares"
-            app:argType="com.example.magiacafetera.ui.model.DataLugaresItem" />
+            app:argType="com.example.magiacafetera.model.DataLugaresItem" />
         <action
             android:id="@+id/action_detalleFragment_to_mapsFragment"
             app:destination="@id/mapsFragment" />
@@ -64,7 +64,7 @@
         tools:layout="@layout/fragment_maps">
         <argument
             android:name="dataLugares2"
-            app:argType="com.example.magiacafetera.ui.model.DataLugaresItem" />
+            app:argType="com.example.magiacafetera.model.DataLugaresItem" />
     </fragment>
 
 

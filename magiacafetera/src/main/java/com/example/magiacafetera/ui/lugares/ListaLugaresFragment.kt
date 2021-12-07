@@ -10,7 +10,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.magiacafetera.databinding.FragmentListaLugaresBinding
-import com.example.magiacafetera.ui.model.DataLugaresItem
+import com.example.magiacafetera.model.DataLugaresItem
 
 class ListaLugaresFragment : Fragment() {
 
@@ -38,7 +38,9 @@ class ListaLugaresFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        listaLugaresViewModel.getLugaresFromJson(requireActivity().application.assets.open("lugares.json"))
+       //listaLugaresViewModel.getLugaresFromJson(requireActivity().application.assets.open("lugares.json"))
+        listaLugaresViewModel.getDataLugaresFromServer()
+
         listaLugaresViewModel.ondataLugaresLoaded.observe(viewLifecycleOwner,{ result ->
             onDataLugaresLoadedSubscribe(result)
         })

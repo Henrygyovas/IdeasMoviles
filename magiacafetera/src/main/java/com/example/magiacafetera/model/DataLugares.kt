@@ -1,4 +1,4 @@
-package com.example.magiacafetera.ui.model
+package com.example.magiacafetera.model
 
 
 class DataLugares : ArrayList<DataLugaresItem>()

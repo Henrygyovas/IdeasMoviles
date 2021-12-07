@@ -6,12 +6,12 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.magiacafetera.R
 import com.example.magiacafetera.databinding.CardViewLugaresBinding
-import com.example.magiacafetera.ui.model.DataLugaresItem
+import com.example.magiacafetera.model.DataLugaresItem
 import com.squareup.picasso.Picasso
 
 class AdapterLugares(
     private val dataLugares: ArrayList<DataLugaresItem>,
-    private val onItemClickListener : (DataLugaresItem) -> Unit,
+    private val onItemClickListener: (DataLugaresItem) -> Unit,
 ) : RecyclerView.Adapter<AdapterLugares.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -21,7 +21,7 @@ class AdapterLugares(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.render(dataLugares[position])
-        holder.itemView.setOnClickListener{ onItemClickListener(dataLugares[position]) }
+        holder.itemView.setOnClickListener { onItemClickListener(dataLugares[position]) }
     }
 
     override fun getItemCount(): Int = dataLugares.size
@@ -32,12 +32,12 @@ class AdapterLugares(
         notifyDataSetChanged()
     }
 
-    class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
+    class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val binding = CardViewLugaresBinding.bind(view)
         fun render(dataLugares: DataLugaresItem) {
+            binding.titleTextView.text = dataLugares.restaurantes[0].title
             binding.puntuacionRatingBar.rating = dataLugares.puntuacion
             binding.descripcionTextView.text = dataLugares.descripcion
-            binding.titleTextView.text = dataLugares.title
             Picasso.get().load(dataLugares.image).into(binding.rvImageView)
         }
     }

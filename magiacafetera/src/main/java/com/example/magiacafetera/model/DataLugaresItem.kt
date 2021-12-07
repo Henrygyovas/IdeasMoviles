@@ -1,4 +1,4 @@
-package com.example.magiacafetera.ui.model
+package com.example.magiacafetera.model
 
 
 import com.google.gson.annotations.SerializedName
@@ -11,6 +11,8 @@ data class DataLugaresItem(
     val detalles: String,
     @SerializedName("hacer")
     val hacer: String,
+    @SerializedName("hoteles")
+    val hoteles: List<Hoteles>,
     @SerializedName("image")
     val image: String,
     @SerializedName("latitud")
@@ -22,7 +24,7 @@ data class DataLugaresItem(
     @SerializedName("puntuacion")
     val puntuacion: Float,
     @SerializedName("restaurantes")
-    val restaurantes: List<Restaurante>,
+    val restaurantes: List<Restaurantes>,
     @SerializedName("title")
     val title: String
 ) : Serializable
