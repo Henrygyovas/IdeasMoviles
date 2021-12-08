@@ -1,16 +1,5 @@
 {
-  "lugares": [
-    {
-      "title": "Salento, Quindio",
-      "descripcion": "un destino que es conocido mundialmente como la cuna de la palma de cera.",
-      "puntuacion": 5.0,
-      "detalles": "Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.\nEn Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.",
-      "hacer": "Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.",
-      "llegar": "A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.",
-      "latitud": 4.6394154,
-      "longitud": -75.5724934,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738368/salento_fmia0w.webp",
-      "restaurantes": [
+    "restaurantes": [
         {
           "title": "Brunch de Salento",
           "puntuacion": 4.7
@@ -30,8 +19,60 @@
         {
           "title": "Etnia arte y sabor",
           "puntuacion": 4.8
+        },
+      {
+          "title": "Bosques de Cocora",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Delicias Cocora",
+          "puntuacion": 4.5
+        },
+        {
+          "title": "Aires del Cocora",
+          "puntuacion": "4.4"
+        },
+      {
+          "title": "Parador Don julio",
+          "puntuacion": 4.3
+        },
+        {
+          "title": "Choripaco",
+          "puntuacion": 4.4
+        },
+        {
+          "title": "Don Pascual",
+          "puntuacion": "4.5"
+        },
+        {
+          "title": "London´s House",
+          "puntuacion": "4.6"
+        },
+      {
+          "title": "Café Jesús Martín",
+          "puntuacion": 4.6
+        },
+        {
+          "title": "Restaurante Cocina y Horno Salento",
+          "puntuacion": 4.8
+        },
+        {
+          "title": "Somevi Pizzeria",
+          "puntuacion": 4.6
         }
       ],
+  "lugares": [
+    {
+      "title": "Salento, Quindio",
+      "descripcion": "un destino que es conocido mundialmente como la cuna de la palma de cera.",
+      "puntuacion": 5.0,
+      "detalles": "Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.\nEn Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.",
+      "hacer": "Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.",
+      "llegar": "A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.",
+      "latitud": 4.6394154,
+      "longitud": -75.5724934,
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738368/salento_fmia0w.webp",
+     
       "hoteles": [
         {
           "title": "BetaHotel",
@@ -61,20 +102,7 @@
       "latitud": 4.6376853,
       "longitud": -75.4891415,
       "image": "https://res.cloudinary.com/kvot/image/upload/v1638738662/valle_cocora_h8afna.webp",
-      "restaurantes": [
-        {
-          "title": "Bosques de Cocora",
-          "puntuacion": 4.7
-        },
-        {
-          "title": "Delicias Cocora",
-          "puntuacion": 4.5
-        },
-        {
-          "title": "Aires del Cocora",
-          "puntuacion": "4.4"
-        }
-      ],
+  
       "hoteles": [
         {
           "title": "Refugios nidos del condor cocora",
@@ -100,24 +128,7 @@
       "latitud": 4.870121,
       "longitud": -75.62239,
       "image": "https://res.cloudinary.com/kvot/image/upload/v1638738524/santa_rosa_ydlv7o.webp",
-      "restaurantes": [
-        {
-          "title": "Parador Don julio",
-          "puntuacion": 4.3
-        },
-        {
-          "title": "Choripaco",
-          "puntuacion": 4.4
-        },
-        {
-          "title": "Don Pascual",
-          "puntuacion": "4.5"
-        },
-        {
-          "title": "London´s House",
-          "puntuacion": "4.6"
-        }
-      ],
+   
       "hoteles": [
         {
           "title": "Hotel Casa Colonial Santa Rosa de Cabal",
@@ -147,20 +158,6 @@
       "latitud": 4.637156,
       "longitud": -75.5706484,
       "image": "https://res.cloudinary.com/kvot/image/upload/v1638738810/parque_nevados_y2ntun.webp",
-      "restaurantes": [
-        {
-          "title": "Café Jesús Martín",
-          "puntuacion": 4.6
-        },
-        {
-          "title": "Restaurante Cocina y Horno Salento",
-          "puntuacion": 4.8
-        },
-        {
-          "title": "Somevi Pizzeria",
-          "puntuacion": 4.6
-        }
-      ],
       "hoteles": [
         {
           "title": "Hilltop salento hostel",
