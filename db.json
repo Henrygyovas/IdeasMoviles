@@ -1,4 +1,67 @@
-{
+{   
+    "hoteles": [
+        {
+          "title": "BetaHotel",
+          "puntuacion": 4.6
+        },
+        {
+          "title": "Hotel Salento Real",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Hotel En Salento Casa Alto Del Coronel",
+          "puntuacion": 4.8
+        },
+        {
+          "title": "Hotel El Jardín Salento",
+          "puntuacion": 4.4
+        },
+        {
+          "title": "Refugios nidos del condor cocora",
+          "puntuacion": 3.9
+        },
+        {
+          "title": "Eco Hotel las Palmas de Cocora",
+          "puntuacion": 4.3
+        },
+        {
+          "title": "Refugio San José del Cocora",
+          "puntuacion": 4.5
+        },
+        {
+          "title": "Hotel Casa Colonial Santa Rosa de Cabal",
+          "puntuacion": 4.3
+        },
+        {
+          "title": "Hotel Dulces Sueños Santa Rosa",
+          "puntuacion": 4.3
+        },
+        {
+          "title": "HOTEL - Finca del Café",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Termales Santa Rosa de Cabal - Hotel",
+          "puntuacion": 4.6
+        },
+        {
+          "title": "Hilltop salento hostel",
+          "puntuacion": 4.8
+        },
+        {
+          "title": "La Posada de la Plaza Hospedaje Hotel Alojamiento Salento Quindio",
+          "puntuacion": 4.5
+        },
+        {
+          "title": "Hotel Salento 1842 Bed & Breakfast",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Balcones Del Ayer",
+          "puntuacion": 4.6
+        }
+      ],
+    
     "restaurantes": [
         {
           "title": "Brunch de Salento",
@@ -71,26 +134,7 @@
       "llegar": "A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.",
       "latitud": 4.6394154,
       "longitud": -75.5724934,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738368/salento_fmia0w.webp",
-     
-      "hoteles": [
-        {
-          "title": "BetaHotel",
-          "puntuacion": 4.6
-        },
-        {
-          "title": "Hotel Salento Real",
-          "puntuacion": 4.7
-        },
-        {
-          "title": "Hotel En Salento Casa Alto Del Coronel",
-          "puntuacion": 4.8
-        },
-        {
-          "title": "Hotel El Jardín Salento",
-          "puntuacion": 4.4
-        }
-      ]
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738368/salento_fmia0w.webp"
     },
     {
       "title": "Valle del Cocora",
@@ -101,22 +145,7 @@
       "llegar": "La distancia de cada sendero es de aproximadamente 6 kilómetros, y el ingreso a cada finca tiene un precio aproximado de $5.000 COP.\nEn este viaje que inicia en Bogotá llegarás al Eje Cafetero, la primera parada será el corregimiento de Toche, declarado Santuario de Flora Nacional, donde conocerás el bosque de palma de cera más denso del mundo.\nTambién, visitarás Salento, Filandia y Quimbaya, y desde el Valle del Cocora caminarás hasta la casa de los colibríes en la reserva natural Acaime. El plan incluye transporte terrestre ida y regreso desde Bogotá, alojamiento, desayunos, entradas a los sitios a visitar y guías.",
       "latitud": 4.6376853,
       "longitud": -75.4891415,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738662/valle_cocora_h8afna.webp",
-  
-      "hoteles": [
-        {
-          "title": "Refugios nidos del condor cocora",
-          "puntuacion": 3.9
-        },
-        {
-          "title": "Eco Hotel las Palmas de Cocora",
-          "puntuacion": 4.3
-        },
-        {
-          "title": "Refugio San José del Cocora",
-          "puntuacion": 4.5
-        }
-      ]
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738662/valle_cocora_h8afna.webp"
     },
     {
       "title": "Santa Rosa de Cabal",
@@ -127,26 +156,7 @@
       "llegar": "En 1 día puedes subir en vehículo hasta el borde del Nevado del Ruiz o caminar 6 kilómetros hasta la Laguna del Otún. En 1 o 2 días puedes subir al Nevado Santa Isabel y al del Tolima puedes llegar desde Salento, en una exigente caminata de 3 días.",
       "latitud": 4.870121,
       "longitud": -75.62239,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738524/santa_rosa_ydlv7o.webp",
-   
-      "hoteles": [
-        {
-          "title": "Hotel Casa Colonial Santa Rosa de Cabal",
-          "puntuacion": 4.3
-        },
-        {
-          "title": "Hotel Dulces Sueños Santa Rosa",
-          "puntuacion": 4.3
-        },
-        {
-          "title": "HOTEL - Finca del Café",
-          "puntuacion": 4.7
-        },
-        {
-          "title": "Termales Santa Rosa de Cabal - Hotel",
-          "puntuacion": 4.6
-        }
-      ]
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738524/santa_rosa_ydlv7o.webp"
     },
     {
       "title": "Parque Nacional de los Nevados",
@@ -157,25 +167,7 @@
       "llegar": "Desde Pereira, Santa Rosa de Cabal y Manizales puedes llegar al Nevado del Ruiz y al Santa Isabel, y al Nevado del Nevado del Tolima puedes llegar desde Salento, el Valle del Cocora e Ibagué.",
       "latitud": 4.637156,
       "longitud": -75.5706484,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738810/parque_nevados_y2ntun.webp",
-      "hoteles": [
-        {
-          "title": "Hilltop salento hostel",
-          "puntuacion": 4.8
-        },
-        {
-          "title": "La Posada de la Plaza Hospedaje Hotel Alojamiento Salento Quindio",
-          "puntuacion": 4.5
-        },
-        {
-          "title": "Hotel Salento 1842 Bed & Breakfast",
-          "puntuacion": 4.7
-        },
-        {
-          "title": "Balcones Del Ayer",
-          "puntuacion": 4.6
-        }
-      ]
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738810/parque_nevados_y2ntun.webp"
     }
   ]
 }
