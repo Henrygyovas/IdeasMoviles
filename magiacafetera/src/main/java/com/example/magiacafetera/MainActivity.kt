@@ -14,7 +14,7 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.magiacafetera.databinding.ActivityMainBinding
-import com.example.magiacafetera.ui.configuracion.SettingsFragment
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
 
         appBarConfiguration = AppBarConfiguration(setOf(
-            R.id.nav_home, R.id.nav_sitios, R.id.nav_slideshow, R.id.nav_settings, R.id.mapsFragment), drawerLayout)
+            R.id.nav_home, R.id.nav_sitios, R.id.nav_datosinteres  , R.id.nav_settings, R.id.mapsFragment, ), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }

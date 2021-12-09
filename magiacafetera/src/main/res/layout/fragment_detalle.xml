@@ -98,7 +98,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
                 android:layout_gravity="end"
-                android:text="Text button"
+                android:text="Map"
                 app:iconTint="@color/secondaryColor"
                 app:icon="@drawable/map_icon"
                 android:textColor="@color/secondaryColor"

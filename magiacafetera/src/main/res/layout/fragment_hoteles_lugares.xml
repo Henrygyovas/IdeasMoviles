@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.restaurantes.RestaurantesLugaresFragment">
+    tools:context=".ui.hoteles.HotelesLugaresFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/restaurantes_recycler_view"
+        android:id="@+id/hoteles_recycler_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:verticalScrollbarPosition="defaultPosition"
@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:listitem="@layout/card_view_restaurantes"
+        tools:listitem="@layout/card_view_hoteles"
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

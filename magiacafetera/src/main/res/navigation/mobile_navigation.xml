@@ -35,12 +35,6 @@
             android:id="@+id/action_nav_sitios_to_detalleFragment"
             app:destination="@id/detalleFragment" />
     </fragment>
-    
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.magiacafetera.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/detalleFragment"
         android:name="com.example.magiacafetera.ui.lugares.detalles.DetalleFragment"
@@ -53,6 +47,11 @@
             android:id="@+id/action_detalleFragment_to_mapsFragment"
             app:destination="@id/mapsFragment" />
     </fragment>
+    <activity
+        android:id="@+id/nav_datosinteres"
+        android:name="com.example.magiacafetera.ui.datosinteres.DatosInteresActivity"
+        android:label="activity_prueba"
+        tools:layout="@layout/activity_datos_interes" />
     <fragment
         android:id="@+id/nav_settings"
         android:name="com.example.magiacafetera.ui.configuracion.SettingsFragment"
@@ -66,6 +65,7 @@
             android:name="dataLugares2"
             app:argType="com.example.magiacafetera.model.DataLugaresItem" />
     </fragment>
+
 
 
 </navigation>

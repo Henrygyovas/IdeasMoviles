@@ -35,7 +35,7 @@ class AdapterLugares(
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val binding = CardViewLugaresBinding.bind(view)
         fun render(dataLugares: DataLugaresItem) {
-            binding.titleTextView.text = dataLugares.restaurantes[0].title
+            binding.titleTextView.text = dataLugares.title
             binding.puntuacionRatingBar.rating = dataLugares.puntuacion
             binding.descripcionTextView.text = dataLugares.descripcion
             Picasso.get().load(dataLugares.image).into(binding.rvImageView)

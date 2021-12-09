@@ -35,9 +35,9 @@
 
 
         <activity
-            android:name=".ui.prueba.PruebaActivity"
+            android:name=".ui.datosinteres.DatosInteresActivity"
             android:exported="true"
-            android:label="@string/title_activity_main"
+            android:label="@string/title_activity_datos_interes"
             android:theme="@style/Theme.IdeasMoviles.NoActionBar" />
         <activity
             android:name=".ui.splash.splashActivity"

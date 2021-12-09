@@ -20,8 +20,6 @@ class ListaLugaresFragment : Fragment() {
     private val listaLugaresViewModel : ListaLugaresViewModel by viewModels()
     private var dataLugares: ArrayList<DataLugaresItem> = arrayListOf()
     private lateinit var adapterLugares: AdapterLugares
-    private var layoutManager: RecyclerView.LayoutManager? = null
-    private var adapter: RecyclerView.Adapter<AdapterLugares.ViewHolder>? = null
 
 
     override fun onCreateView(
@@ -47,7 +45,7 @@ class ListaLugaresFragment : Fragment() {
 
         adapterLugares = AdapterLugares(dataLugares, onItemClickListener = { onItemLugaresClick(it) })
 
-        binding.recyclerView.apply {
+        binding.lugaresRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = adapterLugares
             setHasFixedSize(false)
