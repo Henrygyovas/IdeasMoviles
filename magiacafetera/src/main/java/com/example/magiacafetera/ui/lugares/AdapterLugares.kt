@@ -8,6 +8,7 @@ import com.example.magiacafetera.R
 import com.example.magiacafetera.databinding.CardViewLugaresBinding
 import com.example.magiacafetera.model.DataLugaresItem
 import com.squareup.picasso.Picasso
+import kotlin.math.log
 
 class AdapterLugares(
     private val dataLugares: ArrayList<DataLugaresItem>,
@@ -21,6 +22,7 @@ class AdapterLugares(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.render(dataLugares[position])
+
         holder.itemView.setOnClickListener { onItemClickListener(dataLugares[position]) }
     }
 
@@ -32,9 +34,11 @@ class AdapterLugares(
         notifyDataSetChanged()
     }
 
+
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val binding = CardViewLugaresBinding.bind(view)
         fun render(dataLugares: DataLugaresItem) {
+
             binding.titleTextView.text = dataLugares.title
             binding.puntuacionRatingBar.rating = dataLugares.puntuacion
             binding.descripcionTextView.text = dataLugares.descripcion

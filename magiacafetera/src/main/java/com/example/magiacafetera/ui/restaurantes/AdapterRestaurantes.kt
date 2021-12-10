@@ -7,8 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.magiacafetera.R
 import com.example.magiacafetera.databinding.CardViewRestaurantesBinding
 import com.example.magiacafetera.model.DataRestaurantesItem
-import com.example.magiacafetera.model.Restaurantes
-import kotlin.math.log
 
 class AdapterRestaurantes(
     private val dataRestaurantes: ArrayList<DataRestaurantesItem>,
@@ -21,7 +19,7 @@ class AdapterRestaurantes(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.render(dataRestaurantes[position])
+        holder.render(dataRestaurantes.get(position))
     }
 
     override fun getItemCount(): Int = dataRestaurantes.size

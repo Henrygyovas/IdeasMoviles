@@ -6,9 +6,11 @@
         android:centerColor="@color/secondaryColor"
         android:angle="270"
         android:endColor="@color/secondaryLightColor"/>
+
     <corners
-        android:bottomLeftRadius="150dp"
+        android:bottomLeftRadius="120dp"
         />
+
 
 
 </shape>
