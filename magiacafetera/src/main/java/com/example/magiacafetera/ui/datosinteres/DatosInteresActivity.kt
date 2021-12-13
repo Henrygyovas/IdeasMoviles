@@ -20,6 +20,8 @@ class DatosInteresActivity : AppCompatActivity() {
         binding = ActivityDatosInteresBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setSupportActionBar(binding.toolbar)
+
         val collectionAdapter = CollectionAdapter(this)
         val viewPager: ViewPager2 = findViewById(R.id.viewPager2)
         viewPager.adapter = collectionAdapter

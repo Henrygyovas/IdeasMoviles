@@ -50,7 +50,7 @@
     <activity
         android:id="@+id/nav_datosinteres"
         android:name="com.example.magiacafetera.ui.datosinteres.DatosInteresActivity"
-        android:label="activity_prueba"
+        android:label="@string/title_activity_datos_interes"
         tools:layout="@layout/activity_datos_interes" />
     <fragment
         android:id="@+id/nav_settings"

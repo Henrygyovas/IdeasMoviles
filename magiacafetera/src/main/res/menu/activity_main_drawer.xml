@@ -27,7 +27,7 @@
                     android:title="Compartir"
                     android:icon="@drawable/share_icon" />
                 <item
-                    android:id="@+id/mapsFragment"
+                    android:id="@+id/nav_rate"
                     android:title="Rate us"
                     android:icon="@drawable/rate_icon" />
             </menu>

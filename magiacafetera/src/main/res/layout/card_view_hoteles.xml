@@ -18,20 +18,22 @@
                 android:orientation="vertical"
                 android:padding="16dp">
             <TextView
-                android:id="@+id/title_text_view_lugar"
+                android:id="@+id/title_text_view_hoteles"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Hoteles"
+                android:textColor="@color/primaryColor"
                 android:textSize="30sp"
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 />
 
                 <!-- Title, secondary and supporting text -->
                 <TextView
-                    android:id="@+id/title_text_view_hoteles"
+                    android:id="@+id/title_text_view_lugar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Hoteles"
+                    android:textColor="@color/secondaryColor"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
 

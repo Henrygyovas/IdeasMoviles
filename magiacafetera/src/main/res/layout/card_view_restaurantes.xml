@@ -20,18 +20,20 @@
 
                 <!-- Title, secondary and supporting text -->
                 <TextView
-                    android:id="@+id/title_text_view_lugar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Restaurantes"
-                    android:textSize="30sp"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    />
-                <TextView
                     android:id="@+id/title_text_view_restaurantes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Restaurantes"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="30sp"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    />
+                <TextView
+                    android:id="@+id/title_text_view_lugar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Restaurantes"
+                    android:textColor="@color/secondaryColor"
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     />
 

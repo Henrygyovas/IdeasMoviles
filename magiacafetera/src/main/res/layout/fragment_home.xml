@@ -54,6 +54,8 @@
                 android:layout_gravity="end"
                 android:layout_margin="16dp"
                 android:text="@string/next"
+                android:textColor="@color/secondaryColor"
+                app:strokeColor="@color/secondaryColor"
                 style="?attr/materialButtonOutlinedStyle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
