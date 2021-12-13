@@ -1,139 +1,55 @@
 {
-  "hoteles": [
-    {
-      "title": "BetaHotel",
-      "puntuacion": 4.6
-    },
-    {
-      "title": "Hotel Salento Real",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Hotel En Salento Casa Alto Del Coronel",
-      "puntuacion": 4.8
-    },
-    {
-      "title": "Hotel El Jardín Salento",
-      "puntuacion": 4.4
-    },
-    {
-      "title": "Refugios nidos del condor cocora",
-      "puntuacion": 3.9
-    },
-    {
-      "title": "Eco Hotel las Palmas de Cocora",
-      "puntuacion": 4.3
-    },
-    {
-      "title": "Refugio San José del Cocora",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "Hotel Casa Colonial Santa Rosa de Cabal",
-      "puntuacion": 4.3
-    },
-    {
-      "title": "Hotel Dulces Sueños Santa Rosa",
-      "puntuacion": 4.3
-    },
-    {
-      "title": "HOTEL - Finca del Café",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Termales Santa Rosa de Cabal - Hotel",
-      "puntuacion": 4.6
-    },
-    {
-      "title": "Hilltop salento hostel",
-      "puntuacion": 4.8
-    },
-    {
-      "title": "La Posada de la Plaza Hospedaje Hotel Alojamiento Salento Quindio",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "Hotel Salento 1842 Bed & Breakfast",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Balcones Del Ayer",
-      "puntuacion": 4.6
-    }
-  ],
-  "restaurantes": [
-    {
-      "title": "Brunch de Salento",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Beta Town Bar&Grill",
-      "puntuacion": 4.4
-    },
-    {
-      "title": "Café Salento Plaza",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Cumana Bistro Food",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "Etnia arte y sabor",
-      "puntuacion": 4.8
-    },
-    {
-      "title": "Bosques de Cocora",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Delicias Cocora",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "Aires del Cocora",
-      "puntuacion": 4.4
-    },
-    {
-      "title": "Parador Don julio",
-      "puntuacion": 4.3
-    },
-    {
-      "title": "Choripaco",
-      "puntuacion": 4.4
-    },
-    {
-      "title": "Don Pascual",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "London´s House",
-      "puntuacion": 4.6
-    },
-    {
-      "title": "Café Jesús Martín",
-      "puntuacion": 4.6
-    },
-    {
-      "title": "Restaurante Cocina y Horno Salento",
-      "puntuacion": 4.8
-    },
-    {
-      "title": "Somevi Pizzeria",
-      "puntuacion": 4.6
-    }
-  ],
   "lugares": [
     {
       "title": "Salento, Quindio",
       "descripcion": "un destino que es conocido mundialmente como la cuna de la palma de cera.",
-      "puntuacion": 5,
+      "puntuacion": 5.0,
       "detalles": "Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.\nEn Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.",
       "hacer": "Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.",
       "llegar": "A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.",
       "latitud": 4.6394154,
       "longitud": -75.5724934,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738368/salento_fmia0w.webp"
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738368/salento_fmia0w.webp",
+      "restaurantes": [
+        {
+          "title": "Brunch de Salento",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Beta Town Bar&Grill",
+          "puntuacion": 4.4
+        },
+        {
+          "title": "Café Salento Plaza",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Cumana Bistro Food",
+          "puntuacion": 4.5
+        },
+        {
+          "title": "Etnia arte y sabor",
+          "puntuacion": 4.8
+        }
+      ],
+      "hoteles": [
+        {
+          "title": "BetaHotel",
+          "puntuacion": 4.6
+        },
+        {
+          "title": "Hotel Salento Real",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Hotel En Salento Casa Alto Del Coronel",
+          "puntuacion": 4.8
+        },
+        {
+          "title": "Hotel El Jardín Salento",
+          "puntuacion": 4.4
+        }
+      ]
     },
     {
       "title": "Valle del Cocora",
@@ -144,18 +60,82 @@
       "llegar": "La distancia de cada sendero es de aproximadamente 6 kilómetros, y el ingreso a cada finca tiene un precio aproximado de $5.000 COP.\nEn este viaje que inicia en Bogotá llegarás al Eje Cafetero, la primera parada será el corregimiento de Toche, declarado Santuario de Flora Nacional, donde conocerás el bosque de palma de cera más denso del mundo.\nTambién, visitarás Salento, Filandia y Quimbaya, y desde el Valle del Cocora caminarás hasta la casa de los colibríes en la reserva natural Acaime. El plan incluye transporte terrestre ida y regreso desde Bogotá, alojamiento, desayunos, entradas a los sitios a visitar y guías.",
       "latitud": 4.6376853,
       "longitud": -75.4891415,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738662/valle_cocora_h8afna.webp"
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738662/valle_cocora_h8afna.webp",
+      "restaurantes": [
+        {
+          "title": "Bosques de Cocora",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Delicias Cocora",
+          "puntuacion": 4.5
+        },
+        {
+          "title": "Aires del Cocora",
+          "puntuacion": 4.4
+        }
+      ],
+      "hoteles": [
+        {
+          "title": "Refugios nidos del condor cocora",
+          "puntuacion": 3.9
+        },
+        {
+          "title": "Eco Hotel las Palmas de Cocora",
+          "puntuacion": 4.3
+        },
+        {
+          "title": "Refugio San José del Cocora",
+          "puntuacion": 4.5
+        }
+      ]
     },
     {
       "title": "Santa Rosa de Cabal",
       "descripcion": "Sobresale por sus aguas termales con propiedades curativas y relajantes.",
-      "puntuacion": 4,
+      "puntuacion": 4.0,
       "detalles": "A 30 minutos de Pereira se encuentra Santa Rosa de Cabal, un pequeño pueblo del Eje Cafetero, que también hace parte del Paisaje Cultural Cafetero y que sobresale por sus aguas termales con propiedades curativas y relajantes.\nAsí que si te sigues preguntando qué hacer en el Eje Cafetero, recuerda que en este municipio hay dos termales, Termales Santa Rosa de Cabal y San Vicente Reserva Termal.\nEn los Termales Santa Rosa de Cabal encontrarás piscinas termales, cascadas de agua fría y un hotel familiar, mientras que en los Termales de San Vicente hallarás un lugar mucho más tranquilo, romántico y exclusivo, y termas naturales con un enfoque de bienestar y salud.",
       "hacer": "Antes o después de visitar los termales, puedes detenerte en el restaurante de carretera conocido como Donde Lolo, allí puedes desayunar un auténtico desayuno cafetero con chorizo santarrosano, y caminar por el bosque unos 20 minutos hasta la cascada de los Chorros de Don Lolo.",
       "llegar": "En 1 día puedes subir en vehículo hasta el borde del Nevado del Ruiz o caminar 6 kilómetros hasta la Laguna del Otún. En 1 o 2 días puedes subir al Nevado Santa Isabel y al del Tolima puedes llegar desde Salento, en una exigente caminata de 3 días.",
       "latitud": 4.870121,
       "longitud": -75.62239,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738524/santa_rosa_ydlv7o.webp"
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738524/santa_rosa_ydlv7o.webp",
+      "restaurantes": [
+        {
+          "title": "Parador Don julio",
+          "puntuacion": 4.3
+        },
+        {
+          "title": "Choripaco",
+          "puntuacion": 4.4
+        },
+        {
+          "title": "Don Pascual",
+          "puntuacion": 4.5
+        },
+        {
+          "title": "London´s House",
+          "puntuacion": 4.6
+        }
+      ],
+      "hoteles": [
+        {
+          "title": "Hotel Casa Colonial Santa Rosa de Cabal",
+          "puntuacion": 4.3
+        },
+        {
+          "title": "Hotel Dulces Sueños Santa Rosa",
+          "puntuacion": 4.3
+        },
+        {
+          "title": "HOTEL - Finca del Café",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Termales Santa Rosa de Cabal - Hotel",
+          "puntuacion": 4.6
+        }
+      ]
     },
     {
       "title": "Parque Nacional de los Nevados",
@@ -166,7 +146,39 @@
       "llegar": "Desde Pereira, Santa Rosa de Cabal y Manizales puedes llegar al Nevado del Ruiz y al Santa Isabel, y al Nevado del Nevado del Tolima puedes llegar desde Salento, el Valle del Cocora e Ibagué.",
       "latitud": 4.637156,
       "longitud": -75.5706484,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738810/parque_nevados_y2ntun.webp"
+      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738810/parque_nevados_y2ntun.webp",
+      "restaurantes": [
+        {
+          "title": "Café Jesús Martín",
+          "puntuacion": 4.6
+        },
+        {
+          "title": "Restaurante Cocina y Horno Salento",
+          "puntuacion": 4.8
+        },
+        {
+          "title": "Somevi Pizzeria",
+          "puntuacion": 4.6
+        }
+      ],
+      "hoteles": [
+        {
+          "title": "Hilltop salento hostel",
+          "puntuacion": 4.8
+        },
+        {
+          "title": "La Posada de la Plaza Hospedaje Hotel Alojamiento Salento Quindio",
+          "puntuacion": 4.5
+        },
+        {
+          "title": "Hotel Salento 1842 Bed & Breakfast",
+          "puntuacion": 4.7
+        },
+        {
+          "title": "Balcones Del Ayer",
+          "puntuacion": 4.6
+        }
+      ]
     }
   ]
 }
