@@ -11,8 +11,6 @@ data class DataLugaresItem(
     val detalles: String,
     @SerializedName("hacer")
     val hacer: String,
-    @SerializedName("hoteles")
-    val hoteles: List<Hoteles>,
     @SerializedName("image")
     val image: String,
     @SerializedName("latitud")
@@ -22,9 +20,7 @@ data class DataLugaresItem(
     @SerializedName("longitud")
     val longitud: Double,
     @SerializedName("puntuacion")
-    val puntuacion: Float,
-    @SerializedName("restaurantes")
-    val restaurantes: List<Restaurantes>,
+    val puntuacion: Double,
     @SerializedName("title")
     val title: String
 ) : Serializable

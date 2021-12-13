@@ -1,7 +1,7 @@
-package com.example.magiacafetera.data
+package com.example.magiacafetera.data.datalugares
 
 import com.example.magiacafetera.model.DataLugares
-import com.example.magiacafetera.model.Restaurantes
+import com.example.magiacafetera.model.DataRestaurantes
 import retrofit2.http.GET
 
 interface ApiService {

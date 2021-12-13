@@ -5,16 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.magiacafetera.R
 import com.example.magiacafetera.databinding.FragmentHotelesLugaresBinding
 import com.example.magiacafetera.model.DataHotelesItem
-import com.example.magiacafetera.model.DataRestaurantesItem
-import com.example.magiacafetera.ui.restaurantes.AdapterRestaurantes
-import com.example.magiacafetera.ui.restaurantes.RestaurantesLugaresViewModel
+
 
 
 class HotelesLugaresFragment : Fragment() {
@@ -41,7 +37,7 @@ class HotelesLugaresFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        HotelesLugaresViewModel.getLugaresFromJson(requireActivity().application.assets.open("DataHoteles.json"))
+        HotelesLugaresViewModel.getDataHotelesFromServer()
 
         HotelesLugaresViewModel.ondataHotelesLoaded.observe(viewLifecycleOwner, {result ->
             onDataHotelesLoadedSubscribe(result)

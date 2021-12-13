@@ -3,11 +3,12 @@ package com.example.magiacafetera.ui.lugares
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.magiacafetera.data.DataLugaresRepository
+import com.example.magiacafetera.data.datalugares.DataLugaresRepository
 import com.example.magiacafetera.model.DataLugaresItem
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+
 
 class ListaLugaresViewModel :  ViewModel() {
 

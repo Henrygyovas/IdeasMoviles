@@ -36,7 +36,7 @@ class RestaurantesLugaresFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        RestaurantesLugaresViewModel.getLugaresFromJson(requireActivity().application.assets.open("DataRestaurantes.json"))
+        RestaurantesLugaresViewModel.getDataRestaurantesFromServer()
 
         RestaurantesLugaresViewModel.ondataRestaurantesLoaded.observe(viewLifecycleOwner, {result ->
             onDataRestaurantesLoadedSubscribe(result)
