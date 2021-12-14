@@ -19,12 +19,6 @@
             "image": "https://res.cloudinary.com/kvot/image/upload/v1639519662/hotel_ep6qir.webp"
         },
         {
-            "title": "Hotel El Jardín Salento",
-            "puntuacion": 4.4,
-            "sector": "Salento,Quindio",
-            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519662/hotel_ep6qir.webp"
-        },
-        {
             "title": "Refugios nidos del condor cocora",
             "puntuacion": 3.9,
             "sector": "Valle del Cocora",
@@ -47,13 +41,6 @@
             "puntuacion": 4.3,
             "sector": "Santa Rosa de Cabal",
             "image": "https://res.cloudinary.com/kvot/image/upload/v1639519686/hotel3_pe25gj.webp"
-        },
-        {
-            "title": "Hotel Dulces Sueños Santa Rosa",
-            "puntuacion": 4.3,
-            "sector": "Santa Rosa de Cabal",
-            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519686/hotel3_pe25gj.webp"
-
         },
         {
             "title": "HOTEL - Finca del Café",
@@ -84,12 +71,6 @@
             "puntuacion": 4.7,
             "sector": "Parque Nacional de los Nevados",
             "image": "https://res.cloudinary.com/kvot/image/upload/v1639519694/hotel4_ihg3rg.webp"
-        },
-        {
-            "title": "Balcones Del Ayer",
-            "puntuacion": 4.6,
-            "sector": "Parque Nacional de los Nevados",
-            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519694/hotel4_ihg3rg.webp"
         }
     ],
     "restaurantes": [
@@ -108,12 +89,6 @@
         {
             "title": "Café Salento Plaza",
             "puntuacion": 4.7,
-            "sector": "Salento,Quindio",
-            "image": "https://res.cloudinary.com/kvot/image/upload/v1639517732/comida_restaurante_ijprjj.webp"
-        },
-        {
-            "title": "Cumana Bistro Food",
-            "puntuacion": 4.5,
             "sector": "Salento,Quindio",
             "image": "https://res.cloudinary.com/kvot/image/upload/v1639517732/comida_restaurante_ijprjj.webp"
         },
@@ -144,12 +119,6 @@
         {
             "title": "Parador Don julio",
             "puntuacion": 4.3,
-            "sector": "Santa Rosa de Cabal",
-            "image": "https://res.cloudinary.com/kvot/image/upload/v1639518445/comida_restaurante3_puqjjr.webp"
-        },
-        {
-            "title": "Choripaco",
-            "puntuacion": 4.4,
             "sector": "Santa Rosa de Cabal",
             "image": "https://res.cloudinary.com/kvot/image/upload/v1639518445/comida_restaurante3_puqjjr.webp"
         },
