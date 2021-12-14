@@ -1,172 +1,148 @@
 {
-  "hoteles": [
-    {
-      "title": "BetaHotel",
-      "puntuacion": 4.6
-    },
-    {
-      "title": "Hotel Salento Real",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Hotel En Salento Casa Alto Del Coronel",
-      "puntuacion": 4.8
-    },
-    {
-      "title": "Hotel El Jardín Salento",
-      "puntuacion": 4.4
-    },
-    {
-      "title": "Refugios nidos del condor cocora",
-      "puntuacion": 3.9
-    },
-    {
-      "title": "Eco Hotel las Palmas de Cocora",
-      "puntuacion": 4.3
-    },
-    {
-      "title": "Refugio San José del Cocora",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "Hotel Casa Colonial Santa Rosa de Cabal",
-      "puntuacion": 4.3
-    },
-    {
-      "title": "Hotel Dulces Sueños Santa Rosa",
-      "puntuacion": 4.3
-    },
-    {
-      "title": "HOTEL - Finca del Café",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Termales Santa Rosa de Cabal - Hotel",
-      "puntuacion": 4.6
-    },
-    {
-      "title": "Hilltop salento hostel",
-      "puntuacion": 4.8
-    },
-    {
-      "title": "La Posada de la Plaza Hospedaje Hotel Alojamiento Salento Quindio",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "Hotel Salento 1842 Bed & Breakfast",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Balcones Del Ayer",
-      "puntuacion": 4.6
-    }
-  ],
-  "restaurantes": [
-    {
-      "title": "Brunch de Salento",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Beta Town Bar&Grill",
-      "puntuacion": 4.4
-    },
-    {
-      "title": "Café Salento Plaza",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Cumana Bistro Food",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "Etnia arte y sabor",
-      "puntuacion": 4.8
-    },
-    {
-      "title": "Bosques de Cocora",
-      "puntuacion": 4.7
-    },
-    {
-      "title": "Delicias Cocora",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "Aires del Cocora",
-      "puntuacion": 4.4
-    },
-    {
-      "title": "Parador Don julio",
-      "puntuacion": 4.3
-    },
-    {
-      "title": "Choripaco",
-      "puntuacion": 4.4
-    },
-    {
-      "title": "Don Pascual",
-      "puntuacion": 4.5
-    },
-    {
-      "title": "London´s House",
-      "puntuacion": 4.6
-    },
-    {
-      "title": "Café Jesús Martín",
-      "puntuacion": 4.6
-    },
-    {
-      "title": "Restaurante Cocina y Horno Salento",
-      "puntuacion": 4.8
-    },
-    {
-      "title": "Somevi Pizzeria",
-      "puntuacion": 4.6
-    }
-  ],
-  "lugares": [
-    {
-      "title": "Salento, Quindio",
-      "descripcion": "un destino que es conocido mundialmente como la cuna de la palma de cera.",
-      "puntuacion": 5,
-      "detalles": "Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.\nEn Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.",
-      "hacer": "Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.",
-      "llegar": "A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.",
-      "latitud": 4.6394154,
-      "longitud": -75.5724934,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738368/salento_fmia0w.webp"
-    },
-    {
-      "title": "Valle del Cocora",
-      "descripcion": "Es uno de los últimos bosques de palmas de cera del mundo, las más altas del mundo.",
-      "puntuacion": 4.5,
-      "detalles": "El Valle del Cocora es uno de los últimos bosques de palmas de cera del mundo, las más altas del mundo, un lugar que es entrada al Parque Nacional Natural Los Nevados y uno de los paisajes del Eje Cafetero que está gravemente amenazado por el avance de la ganadería, la minería y el turismo desregulado.\nAsí que el día que vayas al Valle del Cocora, se muy responsable con tu entorno, transita por senderos autorizados, respeta la flora y fauna silvestre, y no arrojes basura, tu vista no debe generar una presión extra, a tan maravilloso lugar.",
-      "hacer": "En el Valle del Cocora encontrarás dos senderos que llevan a Acaime, La Casa de los Colibríes, y que se conectan entre sí. El primer sendero que verás al llegar es de la Finca el Portón, y este llevará por un hermoso camino junto al río y te dará la posibilidad de salir por el segundo sendero.\nEl segundo sendero inicia en la Finca La Esperanza, y lleva a los miradores del bosque de palmas y de la Finca La Montaña, y conecta con la casa de los colibríes y con el primer sendero.",
-      "llegar": "La distancia de cada sendero es de aproximadamente 6 kilómetros, y el ingreso a cada finca tiene un precio aproximado de $5.000 COP.\nEn este viaje que inicia en Bogotá llegarás al Eje Cafetero, la primera parada será el corregimiento de Toche, declarado Santuario de Flora Nacional, donde conocerás el bosque de palma de cera más denso del mundo.\nTambién, visitarás Salento, Filandia y Quimbaya, y desde el Valle del Cocora caminarás hasta la casa de los colibríes en la reserva natural Acaime. El plan incluye transporte terrestre ida y regreso desde Bogotá, alojamiento, desayunos, entradas a los sitios a visitar y guías.",
-      "latitud": 4.6376853,
-      "longitud": -75.4891415,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738662/valle_cocora_h8afna.webp"
-    },
-    {
-      "title": "Santa Rosa de Cabal",
-      "descripcion": "Sobresale por sus aguas termales con propiedades curativas y relajantes.",
-      "puntuacion": 4,
-      "detalles": "A 30 minutos de Pereira se encuentra Santa Rosa de Cabal, un pequeño pueblo del Eje Cafetero, que también hace parte del Paisaje Cultural Cafetero y que sobresale por sus aguas termales con propiedades curativas y relajantes.\nAsí que si te sigues preguntando qué hacer en el Eje Cafetero, recuerda que en este municipio hay dos termales, Termales Santa Rosa de Cabal y San Vicente Reserva Termal.\nEn los Termales Santa Rosa de Cabal encontrarás piscinas termales, cascadas de agua fría y un hotel familiar, mientras que en los Termales de San Vicente hallarás un lugar mucho más tranquilo, romántico y exclusivo, y termas naturales con un enfoque de bienestar y salud.",
-      "hacer": "Antes o después de visitar los termales, puedes detenerte en el restaurante de carretera conocido como Donde Lolo, allí puedes desayunar un auténtico desayuno cafetero con chorizo santarrosano, y caminar por el bosque unos 20 minutos hasta la cascada de los Chorros de Don Lolo.",
-      "llegar": "En 1 día puedes subir en vehículo hasta el borde del Nevado del Ruiz o caminar 6 kilómetros hasta la Laguna del Otún. En 1 o 2 días puedes subir al Nevado Santa Isabel y al del Tolima puedes llegar desde Salento, en una exigente caminata de 3 días.",
-      "latitud": 4.870121,
-      "longitud": -75.62239,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738524/santa_rosa_ydlv7o.webp"
-    },
-    {
-      "title": "Parque Nacional de los Nevados",
-      "descripcion": "Abarca el complejo volcánico conformado por los nevados del Ruíz, Santa Isabel y Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.",
-      "puntuacion": 4.5,
-      "detalles": "Este parque nacional se encuentra sobre la Cordillera Central, en pleno corazón del Eje Cafetero, y abarca el complejo volcánico conformado por los nevados del Ruíz, Santa Isabel y Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.\nUn lindo lugar en el que podrás visitar el superpáramo y páramo, humedales alto andinos y bosques andinos, y conocer de primera mano, los ríos y quebradas que descienden de los picos nevados, y que nutren las tierras agrícolas y acueductos de la región cafetera.\nAsí que si te encanta la naturaleza y aún no sabes qué hacer en el Eje Cafetero, este parque es un excelente lugar para escaparte de la ciudad, respirar aire fresco y afinar tus sentidos en busca del cóndor andino y el colibrí de páramo.",
-      "hacer": "En 1 día puedes subir en vehículo hasta el borde del Nevado del Ruiz o caminar 6 kilómetros hasta la Laguna del Otún. En 1 o 2 días puedes subir al Nevado Santa Isabel y al del Tolima puedes llegar desde Salento, en una exigente caminata de 3 días.",
-      "llegar": "Desde Pereira, Santa Rosa de Cabal y Manizales puedes llegar al Nevado del Ruiz y al Santa Isabel, y al Nevado del Nevado del Tolima puedes llegar desde Salento, el Valle del Cocora e Ibagué.",
-      "latitud": 4.637156,
-      "longitud": -75.5706484,
-      "image": "https://res.cloudinary.com/kvot/image/upload/v1638738810/parque_nevados_y2ntun.webp"
-    }
-  ]
+    "hoteles": [
+        {
+            "title": "Hotel Salento Real",
+            "puntuacion": 4.7,
+            "sector": "Salento,Quindio",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519662/hotel_ep6qir.webp"
+        },
+        {
+            "title": "Hotel En Salento Casa Alto Del Coronel",
+            "puntuacion": 4.8,
+            "sector": "Salento,Quindio",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519662/hotel_ep6qir.webp"
+        },
+        {
+            "title": "Eco Hotel las Palmas de Cocora",
+            "puntuacion": 4.3,
+            "sector": "Valle del Cocora",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519676/hotel2_mex6cn.webp"
+        },
+        {
+            "title": "Refugio San José del Cocora",
+            "puntuacion": 4.5,
+            "sector": "Valle del Cocora",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519676/hotel2_mex6cn.webp"
+        },
+        {
+            "title": "HOTEL - Finca del Café",
+            "puntuacion": 4.7,
+            "sector": "Santa Rosa de Cabal",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519686/hotel3_pe25gj.webp"
+        },
+        {
+            "title": "Termales Santa Rosa de Cabal - Hotel",
+            "puntuacion": 4.6,
+            "sector": "Santa Rosa de Cabal",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519686/hotel3_pe25gj.webp"
+        },
+        {
+            "title": "Hilltop salento hostel",
+            "puntuacion": 4.8,
+            "sector": "Parque Nacional de los Nevados",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519694/hotel4_ihg3rg.webp"
+        },
+        {
+            "title": "La Posada de la Plaza Hospedaje Hotel Alojamiento Salento Quindio",
+            "puntuacion": 4.5,
+            "sector": "Parque Nacional de los Nevados",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639519694/hotel4_ihg3rg.webp"
+        }
+    ],
+    "restaurantes": [
+        {
+            "title": "Brunch de Salento",
+            "puntuacion": 4.7,
+            "sector": "Salento,Quindio",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639517732/comida_restaurante_ijprjj.webp"
+        },
+        {
+            "title": "Etnia arte y sabor",
+            "puntuacion": 4.8,
+            "sector": "Salento,Quindio",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639517732/comida_restaurante_ijprjj.webp"
+        },
+        {
+            "title": "Bosques de Cocora",
+            "puntuacion": 4.7,
+            "sector": "Valle del Cocora",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639518050/comida_restaurante2_iojfcl.webp"
+        },
+        {
+            "title": "Delicias Cocora",
+            "puntuacion": 4.5,
+            "sector": "Valle del Cocora",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639518050/comida_restaurante2_iojfcl.webp"
+        },
+        {
+            "title": "Don Pascual",
+            "puntuacion": 4.5,
+            "sector": "Santa Rosa de Cabal",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639518445/comida_restaurante3_puqjjr.webp"
+        },
+        {
+            "title": "London´s House",
+            "puntuacion": 4.6,
+            "sector": "Santa Rosa de Cabal",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639518445/comida_restaurante3_puqjjr.webp"
+        },
+        {
+            "title": "Café Jesús Martín",
+            "puntuacion": 4.6,
+            "sector": "Parque Nacional de los Nevados",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639518666/comida_restaurante4_yd2pqg.webp"
+        },
+        {
+            "title": "Restaurante Cocina y Horno Salento",
+            "puntuacion": 4.8,
+            "sector": "Parque Nacional de los Nevados",
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1639518666/comida_restaurante4_yd2pqg.webp"
+        }
+    ],
+    "lugares": [
+        {
+            "title": "Salento, Quindio",
+            "descripcion": "Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.\n\nEn Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.",
+            "puntuacion": 5,
+            "detalles": "Salento es uno hermoso pueblo del Eje Cafetero que recuerda la bonanza cafetera que experimentó el triángulo del café, y un destino que es conocido mundialmente como la cuna de la palma de cera.\nEn Salento encontrarás un lugar de calles coloridas, tiendas de artesanías y miradores, y a las afueras hallarás fincas cafeteras, el antiguo Puente de La Explanación, el río Quindío y los bosques húmedos y de palma de cera del Valle del Cocora.",
+            "hacer": "Caminar por el pueblo, subir a los dos miradores, hacer el tour del café en alguna finca cafetera, y tomar Jeep hasta el Valle del Cocora o hasta el vecino municipio de Filandia.",
+            "llegar": "A este pueblito del Eje Cafetero puedes llegar en bus desde la Terminal de Transportes de Armenia o de Pereira, cada trayecto dura 45 minutos.",
+            "latitud": 4.6394154,
+            "longitud": -75.5724934,
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1638738368/salento_fmia0w.webp"
+        },
+        {
+            "title": "Valle del Cocora",
+            "descripcion": "El Valle del Cocora es uno de los últimos bosques de palmas de cera del mundo, las más altas del mundo, un lugar que es entrada al Parque Nacional Natural Los Nevados y uno de los paisajes del Eje Cafetero que está gravemente amenazado por el avance de la ganadería, la minería y el turismo desregulado.\n\nAsí que el día que vayas al Valle del Cocora, se muy responsable con tu entorno, transita por senderos autorizados, respeta la flora y fauna silvestre, y no arrojes basura, tu vista no debe generar una presión extra, a tan maravilloso lugar.",
+            "puntuacion": 4.5,
+            "detalles": "El Valle del Cocora es uno de los últimos bosques de palmas de cera del mundo, las más altas del mundo, un lugar que es entrada al Parque Nacional Natural Los Nevados y uno de los paisajes del Eje Cafetero que está gravemente amenazado por el avance de la ganadería, la minería y el turismo desregulado.\nAsí que el día que vayas al Valle del Cocora, se muy responsable con tu entorno, transita por senderos autorizados, respeta la flora y fauna silvestre, y no arrojes basura, tu vista no debe generar una presión extra, a tan maravilloso lugar.",
+            "hacer": "En el Valle del Cocora encontrarás dos senderos que llevan a Acaime, La Casa de los Colibríes, y que se conectan entre sí. El primer sendero que verás al llegar es de la Finca el Portón, y este llevará por un hermoso camino junto al río y te dará la posibilidad de salir por el segundo sendero.\nEl segundo sendero inicia en la Finca La Esperanza, y lleva a los miradores del bosque de palmas y de la Finca La Montaña, y conecta con la casa de los colibríes y con el primer sendero.",
+            "llegar": "La distancia de cada sendero es de aproximadamente 6 kilómetros, y el ingreso a cada finca tiene un precio aproximado de $5.000 COP.\nEn este viaje que inicia en Bogotá llegarás al Eje Cafetero, la primera parada será el corregimiento de Toche, declarado Santuario de Flora Nacional, donde conocerás el bosque de palma de cera más denso del mundo.\nTambién, visitarás Salento, Filandia y Quimbaya, y desde el Valle del Cocora caminarás hasta la casa de los colibríes en la reserva natural Acaime. El plan incluye transporte terrestre ida y regreso desde Bogotá, alojamiento, desayunos, entradas a los sitios a visitar y guías.",
+            "latitud": 4.6376853,
+            "longitud": -75.4891415,
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1638738662/valle_cocora_h8afna.webp"
+        },
+        {
+            "title": "Santa Rosa de Cabal",
+            "descripcion": "Así que si te sigues preguntando qué hacer en el Eje Cafetero, recuerda que en este municipio hay dos termales, Termales Santa Rosa de Cabal y San Vicente Reserva Termal.\n\nEn los Termales Santa Rosa de Cabal encontrarás piscinas termales, cascadas de agua fría y un hotel familiar, mientras que en los Termales de San Vicente hallarás un lugar mucho más tranquilo, romántico y exclusivo, y termas naturales con un enfoque de bienestar y salud.",
+            "puntuacion": 4,
+            "detalles": "A 30 minutos de Pereira se encuentra Santa Rosa de Cabal, un pequeño pueblo del Eje Cafetero, que también hace parte del Paisaje Cultural Cafetero y que sobresale por sus aguas termales con propiedades curativas y relajantes.\nAsí que si te sigues preguntando qué hacer en el Eje Cafetero, recuerda que en este municipio hay dos termales, Termales Santa Rosa de Cabal y San Vicente Reserva Termal.\nEn los Termales Santa Rosa de Cabal encontrarás piscinas termales, cascadas de agua fría y un hotel familiar, mientras que en los Termales de San Vicente hallarás un lugar mucho más tranquilo, romántico y exclusivo, y termas naturales con un enfoque de bienestar y salud.",
+            "hacer": "Antes o después de visitar los termales, puedes detenerte en el restaurante de carretera conocido como Donde Lolo, allí puedes desayunar un auténtico desayuno cafetero con chorizo santarrosano, y caminar por el bosque unos 20 minutos hasta la cascada de los Chorros de Don Lolo.",
+            "llegar": "En 1 día puedes subir en vehículo hasta el borde del Nevado del Ruiz o caminar 6 kilómetros hasta la Laguna del Otún. En 1 o 2 días puedes subir al Nevado Santa Isabel y al del Tolima puedes llegar desde Salento, en una exigente caminata de 3 días.",
+            "latitud": 4.870121,
+            "longitud": -75.62239,
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1638738524/santa_rosa_ydlv7o.webp"
+        },
+        {
+            "title": "Parque Nacional de los Nevados",
+            "descripcion": "Este parque nacional se encuentra sobre la Cordillera Central, en pleno corazón del Eje Cafetero, y abarca el complejo volcánico conformado por los nevados del Ruíz, Santa Isabel y Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.\n\nUn lindo lugar en el que podrás visitar el superpáramo y páramo, humedales alto andinos y bosques andinos, y conocer de primera mano, los ríos y quebradas que descienden de los picos nevados, y que nutren las tierras agrícolas y acueductos de la región cafetera.",
+            "puntuacion": 4.5,
+            "detalles": "Este parque nacional se encuentra sobre la Cordillera Central, en pleno corazón del Eje Cafetero, y abarca el complejo volcánico conformado por los nevados del Ruíz, Santa Isabel y Tolima, y los Paramillos del Cisne, Santa Rosa y Quindío.\nUn lindo lugar en el que podrás visitar el superpáramo y páramo, humedales alto andinos y bosques andinos, y conocer de primera mano, los ríos y quebradas que descienden de los picos nevados, y que nutren las tierras agrícolas y acueductos de la región cafetera.\nAsí que si te encanta la naturaleza y aún no sabes qué hacer en el Eje Cafetero, este parque es un excelente lugar para escaparte de la ciudad, respirar aire fresco y afinar tus sentidos en busca del cóndor andino y el colibrí de páramo.",
+            "hacer": "En 1 día puedes subir en vehículo hasta el borde del Nevado del Ruiz o caminar 6 kilómetros hasta la Laguna del Otún. En 1 o 2 días puedes subir al Nevado Santa Isabel y al del Tolima puedes llegar desde Salento, en una exigente caminata de 3 días.",
+            "llegar": "Desde Pereira, Santa Rosa de Cabal y Manizales puedes llegar al Nevado del Ruiz y al Santa Isabel, y al Nevado del Nevado del Tolima puedes llegar desde Salento, el Valle del Cocora e Ibagué.",
+            "latitud": 4.637156,
+            "longitud": -75.5706484,
+            "image": "https://res.cloudinary.com/kvot/image/upload/v1638738810/parque_nevados_y2ntun.webp"
+        }
+    ]
 }
