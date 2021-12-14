@@ -46,7 +46,7 @@ class ListaLugaresFragment : Fragment() {
         adapterLugares = AdapterLugares(dataLugares, onItemClickListener = { onItemLugaresClick(it) })
 
         binding.lugaresRecyclerView.apply {
-            layoutManager = LinearLayoutManager(context)
+            layoutManager = LinearLayoutManager(context,  LinearLayoutManager.HORIZONTAL, false)
             adapter = adapterLugares
             setHasFixedSize(false)
         }
